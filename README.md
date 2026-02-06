@@ -1,0 +1,9 @@
+# Bajaj Finserv Health - Qualifier 1
+
+Spring Boot app that:
+- Calls generateWebhook API on startup
+- Solves SQL Question 2
+- Sends final SQL query to webhook with JWT
+
+Java Version: 17
+Spring Boot Version: 4.0.2
