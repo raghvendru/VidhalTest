@@ -26,9 +26,9 @@ public class DemoApplication implements CommandLineRunner {
 				"https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
 
 		Map<String, String> requestBody = new HashMap<>();
-		requestBody.put("name", "RAGHAVENDRA");
-		requestBody.put("regNo", "130");
-		requestBody.put("email", "raghavendruppar@gmail.com");
+		requestBody.put("name", "John Doe");
+		requestBody.put("regNo", "REG12347");
+		requestBody.put("email", "john@example.com");
 
 		ResponseEntity<Map> response =
 				restTemplate.postForEntity(generateUrl, requestBody, Map.class);
