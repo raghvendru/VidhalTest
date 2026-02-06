@@ -6,7 +6,7 @@ package com.vidal.demo;
         private String regNo;
         private String email;
 
-        // getters and setters
+
 
 
 }

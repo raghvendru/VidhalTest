@@ -4,7 +4,6 @@ package com.vidal.demo;
         private String webhook;
         private String accessToken;
 
-        // getters and setters
 
 
 }
